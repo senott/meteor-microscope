@@ -1,3 +1,4 @@
 standard-app-packages
 twbs:bootstrap
 iron:router
+sacha:spin
