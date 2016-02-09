@@ -1,7 +1,6 @@
 Template.postItem.helpers({
   ownPost: function() {
-    //TODO: alterar userID para userId
-    return this.userID == Meteor.userId();
+    return this.userId == Meteor.userId();
   },
   domain: function() {
     var a = document.createElement('a');
